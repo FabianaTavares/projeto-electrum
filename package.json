@@ -1,0 +1,45 @@
+{
+  "name": "projeto-electrum",
+  "version": "1.0.0",
+  "description": "Project electrum to learn sass",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianaTavares/projeto-electrum.git"
+  },
+  "author": "Fabiana <fabi.tavares1@gmail.com> (http://www.frtavares.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianaTavares/projeto-electrum/issues"
+  },
+  "homepage": "https://github.com/FabianaTavares/projeto-electrum#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.0",
+    "standard-version": "^9.5.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-prettier": "^4.0.0"
+  }
+}
