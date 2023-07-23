@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/FabianaTavares/projeto-electrum/compare/v1.0.0...v2.0.0) (2023-07-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* first config deploy and firebase
+
+### Funcionalidades
+
+* first config ([a3e8060](https://github.com/FabianaTavares/projeto-electrum/commit/a3e80603c30ea8108da6437bde0d581d688a8cf3))
+
 ## 1.0.0 (2023-07-23)
 
 ## [1.1.0](https://github.com/FabianaTavares/projeto-agency/compare/v1.0.0...v1.1.0) (2023-07-23)
